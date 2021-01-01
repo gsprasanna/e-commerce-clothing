@@ -5,7 +5,7 @@
   cursor: pointer;
   border: none;
   text-transform: uppercase;
-  min-width: 220px;
+  min-width: 180px;
   width: auto;
   height: 50px;
   font-weight: bolder;
@@ -16,5 +16,16 @@
     color: black;
     background-color: white;
     border: 1px solid black;
+  }
+}
+
+.google-sign-in {
+  background-color: #4285f4;
+  color: white;
+  min-width: 180px;
+
+  &:hover {
+    background-color: #357ae8;
+    border: none;
   }
 }

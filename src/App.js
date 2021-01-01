@@ -28,9 +28,10 @@ class App extends Component {
     this.unsubscribeFromAuth();
   }
   render() {
+    const { currentUser } = this.state;
     return (
       <div>
-        <Header />
+        <Header currentUser={currentUser} />
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/shop" component={ShopPage} />
